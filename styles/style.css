@@ -68,15 +68,15 @@ body {
     
 }
 
+.cover__title {
+    position: relative;
+    z-index: 1;
+}
+
 .overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, .6);
     inset: 0;
-}
-
-.cover__title {
-    position: relative;
-    z-index: 1;
 }
 
 .aligned-text {
