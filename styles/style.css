@@ -35,7 +35,8 @@ body {
     text-underline-offset: 4px;
 }
 
-.link-active {
+.link-active,
+.header__link-active {
     text-decoration: none;
     list-style: none;
 }
