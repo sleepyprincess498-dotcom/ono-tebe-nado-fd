@@ -50,9 +50,6 @@ body {
 
 .header__address {
     width: 240px;
-}
-
-.header__address {
     justify-self: end;
 }
 
