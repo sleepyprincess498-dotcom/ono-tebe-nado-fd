@@ -164,6 +164,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    text-decoration: none;
 }
 
 .card__title {
