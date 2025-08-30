@@ -36,7 +36,7 @@ body {
 }
 
 .link-active,
-.header__link-active {
+.header__links-active-list-item {
     text-decoration: none;
     list-style: none;
 }
@@ -47,6 +47,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-underline-offset: 4px;
+    line-height: 135%;
 }
 
 .header__address {
@@ -57,7 +58,6 @@ body {
 .cover {
     padding: 170px 50px 50px 50px;
     min-height: 757px;
-    min-width: 293px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -297,6 +297,8 @@ body {
     flex-direction: column;
     align-items: center;
     text-underline-offset: 3px;
+    font-size: 18px;
+    line-height: 120%;
 }
 
 .footer__social-list {
